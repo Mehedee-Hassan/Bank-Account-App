@@ -1,0 +1,9 @@
+c:\users\mhr\documents\visual studio 2013\Projects\day3\Bank Account App\Bank Account App\bin\Debug\Bank Account App.exe.config
+c:\users\mhr\documents\visual studio 2013\Projects\day3\Bank Account App\Bank Account App\obj\Debug\Bank Account App.csprojResolveAssemblyReference.cache
+c:\users\mhr\documents\visual studio 2013\Projects\day3\Bank Account App\Bank Account App\obj\Debug\Bank_Account_App.PersonUIForm.resources
+c:\users\mhr\documents\visual studio 2013\Projects\day3\Bank Account App\Bank Account App\obj\Debug\Bank_Account_App.Properties.Resources.resources
+c:\users\mhr\documents\visual studio 2013\Projects\day3\Bank Account App\Bank Account App\obj\Debug\Bank Account App.csproj.GenerateResource.Cache
+c:\users\mhr\documents\visual studio 2013\Projects\day3\Bank Account App\Bank Account App\bin\Debug\Bank Account App.exe
+c:\users\mhr\documents\visual studio 2013\Projects\day3\Bank Account App\Bank Account App\bin\Debug\Bank Account App.pdb
+c:\users\mhr\documents\visual studio 2013\Projects\day3\Bank Account App\Bank Account App\obj\Debug\Bank Account App.exe
+c:\users\mhr\documents\visual studio 2013\Projects\day3\Bank Account App\Bank Account App\obj\Debug\Bank Account App.pdb
