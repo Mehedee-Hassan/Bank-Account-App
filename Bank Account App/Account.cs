@@ -9,18 +9,26 @@ namespace Bank_Account_App
 {
     class Account
     {
-        //has
-        public string number;
-        public string name;
-        public double balance;
+               //has
+        private string number;
+        private string name;
+        private double balance;
+
+        //private double Balance { get; private set; }
+
 
         public Account()
         {
             balance = 0;
         }
 
-
-        //does
+        public Account(string number , string name)
+        {
+            this.number = number;
+            this.name = name;
+            balance = 0;
+        }
+      
         public void Depsit(double amount)
         {
             balance += amount;
@@ -32,16 +40,24 @@ namespace Bank_Account_App
             balance -= amount;
         }
 
-        public string GetReport()
+
+        public string Name
         {
-            string message = name +
-                ", your account number is : " + 
-                number + 
-                "\nand it's balance is : " + 
-                balance;
-            
-            
-            return message;
+            get { return name; }
+            set { name = value; }
+        }
+
+
+        public string Number
+        {
+            get{return number;}
+            set{ number = value;}
+        }
+
+
+        public double Balance
+        {
+            get { return balance; }
         }
 
     }

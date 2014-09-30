@@ -33,9 +33,9 @@ namespace Bank_Account_App
         private void createButton_Click(object sender, EventArgs e)
         {
             aAccount = new Account();
-            aAccount.balance = 0;
-            aAccount.name = accountNumberTextBox.Text;
-            aAccount.number = accountNumberTextBox.Text;
+            
+            aAccount.Name = accountNumberTextBox.Text;
+            aAccount.Number = accountNumberTextBox.Text;
 
 
 
@@ -77,7 +77,7 @@ namespace Bank_Account_App
 
         private void reportButton_Click(object sender, EventArgs e)
         {
-            string message = aAccount.GetReport();
+            string message = aAccount.Name + " , Your Current Balance is : " + aAccount.Balance;
 
             MessageBox.Show(message);
             
